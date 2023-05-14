@@ -1,0 +1,414 @@
+2023-04-23 00:24:44,912 INFO: You are here
+2023-04-23 00:26:06,787 INFO: You are in predict page
+2023-04-23 00:26:06,798 INFO: Taken inputs
+2023-04-23 00:26:06,828 INFO: Converted input data to DataFrame
+2023-04-23 00:26:06,829 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adi/Desktop/untitled folder/app.py", line 82, in predict
+    transformed_data = transformer.transform(input_df)
+AttributeError: 'str' object has no attribute 'transform'
+2023-04-23 00:35:14,351 INFO: You are here
+2023-04-23 00:35:33,829 INFO: You are here
+2023-04-23 00:36:19,530 INFO: You are in predict page
+2023-04-23 00:36:19,536 INFO: Taken inputs
+2023-04-23 00:36:19,554 INFO: Converted input data to DataFrame
+2023-04-23 00:36:19,555 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adi/Desktop/untitled folder/app.py", line 89, in predict
+    transformed_data = transformer.transform(input_df)
+AttributeError: 'str' object has no attribute 'transform'
+2023-04-23 00:38:25,059 INFO: You are here
+2023-04-23 00:38:34,604 INFO: You are in predict page
+2023-04-23 00:38:34,608 INFO: Taken inputs
+2023-04-23 00:38:34,622 INFO: Converted input data to DataFrame
+2023-04-23 00:38:34,623 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adi/Desktop/untitled folder/app.py", line 89, in predict
+    transformed_data = transformer.transform(input_df)
+AttributeError: '_io.TextIOWrapper' object has no attribute 'transform'
+2023-04-23 00:38:39,790 INFO: You are in predict page
+2023-04-23 00:38:39,792 INFO: Taken inputs
+2023-04-23 00:38:39,794 INFO: Converted input data to DataFrame
+2023-04-23 00:38:39,795 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adi/Desktop/untitled folder/app.py", line 89, in predict
+    transformed_data = transformer.transform(input_df)
+AttributeError: '_io.TextIOWrapper' object has no attribute 'transform'
+2023-04-23 00:40:05,163 INFO: You are here
+2023-04-23 00:40:29,504 INFO: You are here
+2023-04-23 00:41:33,008 INFO: You are in predict page
+2023-04-23 00:41:33,013 INFO: Taken inputs
+2023-04-23 00:41:33,033 INFO: Converted input data to DataFrame
+2023-04-23 00:41:33,034 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adi/Desktop/untitled folder/app.py", line 89, in predict
+    transformed_data = transformer.transform(input_df)
+AttributeError: '_io.TextIOWrapper' object has no attribute 'transform'
+2023-04-23 00:44:13,768 INFO: You are here
+2023-04-23 00:44:46,814 INFO: You are in predict page
+2023-04-23 00:44:46,822 INFO: Taken inputs
+2023-04-23 00:44:46,877 INFO: Converted input data to DataFrame
+2023-04-23 00:44:46,877 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adi/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adi/Desktop/untitled folder/app.py", line 90, in predict
+    transformed_data = transformer.transform(input_df)
+AttributeError: '_io.TextIOWrapper' object has no attribute 'transform'
+2023-04-23 10:09:53,453 INFO: You are here
+2023-04-23 10:10:08,906 INFO: You are in predict page
+2023-04-23 10:10:08,909 INFO: Taken inputs
+2023-04-23 10:10:08,911 INFO: Converted input data to DataFrame
+2023-04-23 10:10:08,918 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\tando\Downloads\untitled folder\untitled folder\app.py", line 90, in predict
+    transformed_data = transformer.transform(input_df)
+AttributeError: '_io.TextIOWrapper' object has no attribute 'transform'
+2023-04-23 10:11:54,610 INFO: You are here
+2023-04-23 10:12:07,280 INFO: You are in predict page
+2023-04-23 10:12:07,280 INFO: Taken inputs
+2023-04-23 10:12:07,280 INFO: Converted input data to DataFrame
+2023-04-23 10:12:07,280 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\tando\Downloads\untitled folder\untitled folder\app.py", line 90, in predict
+    transformed_data = transformer.transform(input_df)
+AttributeError: '_io.TextIOWrapper' object has no attribute 'transform'
+2023-04-23 10:18:16,076 INFO: You are here
+2023-04-23 10:18:33,314 INFO: You are in predict page
+2023-04-23 10:18:33,322 INFO: Taken inputs
+2023-04-23 10:18:33,330 INFO: Converted input data to DataFrame
+2023-04-23 10:18:33,359 INFO: Transformer applied
+2023-04-23 10:18:33,363 INFO: Prediction applied
+2023-04-23 10:18:33,363 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\tando\Downloads\untitled folder\untitled folder\app.py", line 106, in predict
+    cat_prediction = target_encoder.inverse_transform(prediction.astype(int))
+ValueError: invalid literal for int() with base 10: 'Z'
+2023-04-23 10:45:03,767 INFO: You are here
+2023-04-23 10:45:20,170 INFO: You are in predict page
+2023-04-23 10:45:20,185 INFO: Taken inputs
+2023-04-23 10:45:20,185 INFO: Converted input data to DataFrame
+2023-04-23 10:45:20,193 INFO: Transformer applied
+2023-04-23 10:45:20,202 INFO: Prediction applied
+2023-04-23 10:45:20,202 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\tando\Downloads\untitled folder\untitled folder\app.py", line 106, in predict
+    cat_prediction = target_encoder.inverse_transform(prediction.astype(int))
+ValueError: invalid literal for int() with base 10: 'Z'
+2023-04-23 19:59:06,798 INFO: You are here
+2023-04-23 19:59:10,329 INFO: You are here
+2023-04-23 19:59:25,527 INFO: You are in predict page
+2023-04-23 19:59:25,539 INFO: Taken inputs
+2023-04-23 19:59:25,543 INFO: Converted input data to DataFrame
+2023-04-23 19:59:25,553 INFO: Transformer applied
+2023-04-23 19:59:25,553 INFO: Prediction applied
+2023-04-23 19:59:25,553 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\tando\Downloads\untitled folder\untitled folder\app.py", line 106, in predict
+    cat_prediction = target_encoder.inverse_transform(prediction.astype(int))
+ValueError: invalid literal for int() with base 10: 'K'
+2023-04-23 20:22:30,858 INFO: You are here
+2023-04-23 20:22:44,634 INFO: You are in predict page
+2023-04-23 20:22:44,643 INFO: Taken inputs
+2023-04-23 20:22:44,645 INFO: Converted input data to DataFrame
+2023-04-23 20:22:44,645 INFO: Transformer applied
+2023-04-23 20:22:44,645 INFO: Prediction applied
+2023-04-23 20:22:44,652 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\tando\Downloads\untitled folder\untitled folder\app.py", line 107, in predict
+    cat_prediction = target_encoder.inverse_transform(prediction.astype(int))
+ValueError: invalid literal for int() with base 10: 'Z'
+2023-04-23 20:25:26,394 INFO: You are here
+2023-04-23 20:25:28,217 INFO: You are in predict page
+2023-04-23 20:25:28,223 INFO: Taken inputs
+2023-04-23 20:25:28,224 INFO: Converted input data to DataFrame
+2023-04-23 20:25:28,229 INFO: Transformer applied
+2023-04-23 20:25:28,229 INFO: Prediction applied
+2023-04-23 20:25:28,230 ERROR: Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\tando\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\tando\Downloads\untitled folder\untitled folder\app.py", line 107, in predict
+    cat_prediction = target_encoder.inverse_transform(prediction)
+  File "C:\Users\tando\anaconda3\lib\site-packages\sklearn\preprocessing\_label.py", line 161, in inverse_transform
+    raise ValueError("y contains previously unseen labels: %s" % str(diff))
+ValueError: y contains previously unseen labels: ['Z']
+2023-04-23 20:26:33,173 INFO: You are here
+2023-04-23 20:26:35,311 INFO: You are in predict page
+2023-04-23 20:26:35,316 INFO: Taken inputs
+2023-04-23 20:26:35,317 INFO: Converted input data to DataFrame
+2023-04-23 20:26:35,323 INFO: Transformer applied
+2023-04-23 20:26:35,324 INFO: Prediction applied
+2023-04-23 20:26:35,324 INFO: Inverse Transform applied
+2023-04-23 20:26:35,324 INFO: Assigning categories
+2023-04-23 20:26:35,324 INFO: categories assigned
+2023-04-23 22:02:54,714 INFO: You are here
+2023-04-23 22:03:36,743 INFO: You are in predict page
+2023-04-23 22:03:36,745 INFO: Taken inputs
+2023-04-23 22:03:36,761 INFO: Converted input data to DataFrame
+2023-04-23 22:03:36,793 INFO: Transformer applied
+2023-04-23 22:03:36,794 INFO: Prediction applied
+2023-04-23 22:03:36,794 INFO: Inverse Transform applied
+2023-04-23 22:03:36,794 INFO: Assigning categories
+2023-04-23 22:03:36,795 INFO: categories assigned
+2023-04-24 08:00:15,593 INFO: You are here
+2023-04-24 08:04:48,099 INFO: You are here
+2023-04-24 08:05:16,923 INFO: You are in predict page
+2023-04-24 08:05:16,925 INFO: Taken inputs
+2023-04-24 08:05:16,934 INFO: Converted input data to DataFrame
+2023-04-24 08:05:16,959 INFO: Transformer applied
+2023-04-24 08:05:16,960 INFO: Prediction applied
+2023-04-24 08:05:16,960 INFO: Inverse Transform applied
+2023-04-24 08:05:16,961 INFO: Assigning categories
+2023-04-24 08:05:16,961 INFO: categories assigned
+2023-04-24 09:15:11,682 INFO: You are here
+2023-04-24 09:15:51,909 INFO: You are here
+2023-04-24 09:16:43,914 INFO: You are here
+2023-04-24 09:23:55,665 INFO: You are here
+2023-04-24 09:24:59,252 INFO: You are here
+2023-04-24 10:48:09,357 INFO: You are here
+2023-04-24 12:19:36,856 INFO: You are here
+2023-04-24 12:21:40,226 INFO: You are here
+2023-04-24 12:29:08,020 INFO: You are in predict page
+2023-04-24 12:29:08,025 INFO: Taken inputs
+2023-04-24 12:29:08,049 INFO: Converted input data to DataFrame
+2023-04-24 12:29:08,077 INFO: Transformer applied
+2023-04-24 12:29:08,080 INFO: Prediction applied
+2023-04-24 12:29:08,080 INFO: Inverse Transform applied
+2023-04-24 12:29:08,080 INFO: Assigning categories
+2023-04-24 12:29:08,081 INFO: categories assigned
+2023-04-24 12:29:22,874 INFO: You are in predict page
+2023-04-24 12:29:22,875 INFO: Taken inputs
+2023-04-24 12:29:22,877 INFO: Converted input data to DataFrame
+2023-04-24 12:29:22,897 INFO: Transformer applied
+2023-04-24 12:29:22,898 INFO: Prediction applied
+2023-04-24 12:29:22,898 INFO: Inverse Transform applied
+2023-04-24 12:29:22,898 INFO: Assigning categories
+2023-04-24 12:29:22,899 INFO: categories assigned
+2023-04-24 12:29:32,074 INFO: You are in predict page
+2023-04-24 12:29:32,075 INFO: Taken inputs
+2023-04-24 12:29:32,077 INFO: Converted input data to DataFrame
+2023-04-24 12:29:32,089 INFO: Transformer applied
+2023-04-24 12:29:32,090 INFO: Prediction applied
+2023-04-24 12:29:32,090 INFO: Inverse Transform applied
+2023-04-24 12:29:32,090 INFO: Assigning categories
+2023-04-24 12:29:32,091 INFO: categories assigned
+2023-05-10 09:56:05,835 INFO: You are here
+2023-05-10 09:57:44,615 INFO: You are in predict page
+2023-05-10 09:57:44,623 INFO: Taken inputs
+2023-05-10 09:57:44,648 INFO: Converted input data to DataFrame
+2023-05-10 09:57:44,684 INFO: Transformer applied
+2023-05-10 09:57:44,686 INFO: Prediction applied
+2023-05-10 09:57:44,686 INFO: Inverse Transform applied
+2023-05-10 09:57:44,686 INFO: Assigning categories
+2023-05-10 09:57:44,687 INFO: categories assigned
+2023-05-10 09:58:23,323 INFO: You are in predict page
+2023-05-10 09:58:23,328 INFO: Taken inputs
+2023-05-10 09:58:23,337 INFO: Converted input data to DataFrame
+2023-05-10 09:58:23,355 INFO: Transformer applied
+2023-05-10 09:58:23,355 INFO: Prediction applied
+2023-05-10 09:58:23,355 INFO: Inverse Transform applied
+2023-05-10 09:58:23,355 INFO: Assigning categories
+2023-05-10 09:58:23,355 INFO: categories assigned
+2023-05-10 09:58:32,945 INFO: You are in predict page
+2023-05-10 09:58:32,948 INFO: Taken inputs
+2023-05-10 09:58:32,954 INFO: Converted input data to DataFrame
+2023-05-10 09:58:32,972 INFO: Transformer applied
+2023-05-10 09:58:32,973 INFO: Prediction applied
+2023-05-10 09:58:32,973 INFO: Inverse Transform applied
+2023-05-10 09:58:32,973 INFO: Assigning categories
+2023-05-10 09:58:32,973 INFO: categories assigned
+2023-05-10 09:59:20,194 INFO: You are in predict page
+2023-05-10 09:59:20,199 INFO: Taken inputs
+2023-05-10 09:59:20,230 INFO: Converted input data to DataFrame
+2023-05-10 09:59:20,290 INFO: Transformer applied
+2023-05-10 09:59:20,296 INFO: Prediction applied
+2023-05-10 09:59:20,298 INFO: Inverse Transform applied
+2023-05-10 09:59:20,298 INFO: Assigning categories
+2023-05-10 09:59:20,299 INFO: categories assigned
+2023-05-10 09:59:32,242 INFO: You are in predict page
+2023-05-10 09:59:32,245 INFO: Taken inputs
+2023-05-10 09:59:32,266 INFO: Converted input data to DataFrame
+2023-05-10 09:59:32,289 INFO: Transformer applied
+2023-05-10 09:59:32,290 INFO: Prediction applied
+2023-05-10 09:59:32,290 INFO: Inverse Transform applied
+2023-05-10 09:59:32,290 INFO: Assigning categories
+2023-05-10 09:59:32,290 INFO: categories assigned
+2023-05-10 09:59:40,716 INFO: You are in predict page
+2023-05-10 09:59:40,720 INFO: Taken inputs
+2023-05-10 09:59:40,727 INFO: Converted input data to DataFrame
+2023-05-10 09:59:40,750 INFO: Transformer applied
+2023-05-10 09:59:40,751 INFO: Prediction applied
+2023-05-10 09:59:40,751 INFO: Inverse Transform applied
+2023-05-10 09:59:40,751 INFO: Assigning categories
+2023-05-10 09:59:40,752 INFO: categories assigned
+2023-05-10 09:59:49,529 INFO: You are in predict page
+2023-05-10 09:59:49,534 INFO: Taken inputs
+2023-05-10 09:59:49,543 INFO: Converted input data to DataFrame
+2023-05-10 09:59:49,560 INFO: Transformer applied
+2023-05-10 09:59:49,561 INFO: Prediction applied
+2023-05-10 09:59:49,561 INFO: Inverse Transform applied
+2023-05-10 09:59:49,561 INFO: Assigning categories
+2023-05-10 09:59:49,561 INFO: categories assigned
+2023-05-10 09:59:55,967 INFO: You are in predict page
+2023-05-10 09:59:55,972 INFO: Taken inputs
+2023-05-10 09:59:55,980 INFO: Converted input data to DataFrame
+2023-05-10 09:59:56,001 INFO: Transformer applied
+2023-05-10 09:59:56,002 INFO: Prediction applied
+2023-05-10 09:59:56,002 INFO: Inverse Transform applied
+2023-05-10 09:59:56,002 INFO: Assigning categories
+2023-05-10 09:59:56,002 INFO: categories assigned
+2023-05-11 14:02:42,976 INFO: You are here
+2023-05-11 14:28:53,725 INFO: You are here
